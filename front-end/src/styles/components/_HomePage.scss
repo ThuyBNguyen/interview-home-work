@@ -1,0 +1,31 @@
+.homepage {
+    min-height: 100vh;
+    .big_panel {
+        height: 500px;
+        background-image: url('../../assets/images/sunset.jpg');
+        background-repeat: no-repeat;
+        background-position-y: 79%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .sologan {
+            color: white;
+            font-family: 'Caveat', cursive;
+            font-size: 72px;
+            letter-spacing: 0.3em;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    .homepage {
+        .big_panel {
+            .sologan {
+                font-size: 64px;
+                letter-spacing: 0.2em;
+            }
+        }
+    }
+}

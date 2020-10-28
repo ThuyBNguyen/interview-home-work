@@ -1,0 +1,56 @@
+.postList {
+    padding: 36px 0;
+    .post {
+        padding: 30px 0;
+        border-bottom: 0.5px solid  rgba($color: #350107, $alpha: 0.6);
+        h1 {
+            // color: #583B7E;
+            color: #350107;
+        }
+        
+        .read {
+            text-transform: uppercase;
+            color: #C9729F;
+           
+        }
+        .coffee {
+            color: #C9729F;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .post-header {
+            display: inline-block;
+            .author {
+                font-weight: bold;
+                display: inline-block;
+                margin-right: 50px;
+               
+            }
+            .createdAt {
+                font-style: italic;
+                display: inline-block;
+            }
+        }
+        .post-comments {
+            margin-top: 30px;
+            h3 {
+                text-transform: uppercase;
+                color: #C9729F;
+                .showComment {
+                    cursor: pointer;
+                }
+            }
+            .comment {
+                display: block;
+                border-left: 1px solid #C9729F;
+                padding: 30px;
+                margin-left: 30px;
+            }
+            .comment.display {
+                display: none;
+            }
+
+        }
+
+    }
+}

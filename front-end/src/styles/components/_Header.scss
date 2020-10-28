@@ -1,0 +1,21 @@
+.header {
+    background-color: #C9729F;
+    position: fixed;
+    width: 100vw;
+    background: transparent;
+   
+    .navbar-brand {
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    .navbar-nav .nav-link {
+        color: white;
+        // margin-left: 15px;
+        text-decoration: none;
+    }
+
+}
+.header.active {
+    background-color: rgba($color: #350107, $alpha: 0.6);
+}

@@ -1,0 +1,34 @@
+.create-edit {
+    .photo {
+        height: 500px;
+        background-image: url('../../assets/images/sunset_2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content {
+        padding: 30px 0;
+        h1 {
+            text-align: center;
+        }
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        .create {
+            background-color: #C9729F;
+            color: white;
+        }
+        .delete {
+            background-color: #583B7E;
+            color: white;
+        }
+        .cancel {
+            background-color: #350107;
+            color: white;
+        }
+    }
+}

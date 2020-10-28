@@ -1,0 +1,21 @@
+.postDetail {
+    .photo {
+        height: 500px;
+        background-image: url('../../assets/images/sunset_2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .post {
+        padding: 30px 0;
+    }
+    .edit {
+        background: #C9729F;
+        color: white;
+        margin-top: 20px;
+        border: none;
+    }
+}
